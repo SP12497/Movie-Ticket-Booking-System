@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row justify-content-center my-5">
+    <div class="col-md-6 text-center text-primary bg-white rounded shadow py-3">
+
+
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+  <p class="h4 mb-4">User Login</p>
+
+  <div class=" mb-4">
+      <div class="col">
+        <label for="email">Email</label>
+          <input type="text" formControlName="email"  class="form-control" placeholder="Enter Email">
+      </div>
+      <br>
+      <div class="col">
+          <label for="userPassword">Password</label>
+          <input type="text" formControlName="userPassword"  class="form-control" placeholder="Enter Password">
+      </div>
+      <br>
+      <button class="btn btn-info my-4 btn-block" type="submit">Sign-In</button>
+
+  </div>
+    </form>
+
+    </div>
+  </div>
+</div>

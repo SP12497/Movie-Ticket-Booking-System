@@ -1,0 +1,35 @@
+<div class="container-fluid mystyle" >
+  <ng-container *ngFor="let mydate of showDates" >
+    <div class="btn-group">
+      <button (click)="GetShowList(mydate)">{{mydate | date }}</button>
+    </div>
+  </ng-container>
+</div>
+
+
+<!-- Theatre List  -->
+
+<div *ngIf="isDateAvailable" class="container mx-auto ">
+	<table class="" >
+		<thead class="">
+			<tr>
+				<th>Theatre Name</th>
+				<th>Screen Name</th>
+				<th>Show Timing</th>
+			</tr>
+    </thead>
+
+		<tbody>
+      <ng-container *ngFor="let show of ShowDetails">
+        <tr (click)="selectshow(show)" routerLink="/seat">
+          <td>{{show.theatreName}}</td>
+          <td>{{show.screenName}}</td>
+          <td>{{show.startTime  }}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+
+	</table>
+</div>
+
+

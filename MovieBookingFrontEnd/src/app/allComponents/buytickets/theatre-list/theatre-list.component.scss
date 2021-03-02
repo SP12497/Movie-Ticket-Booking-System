@@ -1,0 +1,116 @@
+
+
+.BlondeBride{
+  color: #f9ff60;
+  background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+}
+
+.btn{
+  margin-right: 5px;
+}
+
+.mystyle{
+  background-color: #333545;
+  padding: 40px 20px 15px 40px;
+}
+
+
+
+/* Dates Header */
+
+.btn-group button {
+  background-color: blueviolet; /* Green background */
+  border: 1px solid rgb(128, 19, 0); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: darkblue;
+}
+
+
+
+
+/* Theatre List : */
+// html,
+// body {
+// 	height: 100%;
+// }
+
+// body {
+// 	margin: 0;
+// 	background: linear-gradient(45deg, #49a09d, #5f2c82);
+// 	font-family: sans-serif;
+// 	font-weight: 100;
+// }
+
+.container {
+  perspective: 1000px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}

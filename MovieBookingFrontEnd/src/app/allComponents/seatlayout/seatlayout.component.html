@@ -1,0 +1,56 @@
+<div class="movie-container">
+  <div class="container">
+  <!-- info -->
+    <ul class="showcase text-white">
+      <li>
+        <div class="seat red"></div>
+        <small>Available</small>
+      </li>
+      <li>
+        <div class="seat selected green"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied blue"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+
+<!-- Screen -->
+    <div class="screen"></div>
+  </div>
+
+
+
+<div class="container" >
+  <div class="cinema-seats row"  *ngFor="let seats of myarray; let i = index">
+
+      <div *ngFor="let seat of seats; let j = index" class="d-inline col text-white" >
+        <div class="seat"  *ngIf="seat.isBooked" [ngClass]="'blue'"> {{seat.seatNumber}}</div>
+        <div class="seat"  *ngIf="!seat.isBooked" (click)="seatClick(i*10+j+1,seat)"    [ngClass]="{'green':isSelectedArray[i*10+j+1] , 'red':!isSelectedArray[i*10+j+1]}" > {{seat.seatNumber}} </div>
+      </div>
+
+      <br>
+
+
+  </div>
+
+  <br><br>
+
+  <h5 *ngIf="!isChoose()" class="text-white" >You have selected <b> <i> {{count}} seats </i></b> for the total price of <b><i> Rs. {{count * myShow.price}} </i></b></h5>
+
+  <br><br>
+  <div class="wrap">
+  <button (click)="BookTicket()" type="button" class="button">Book Your Ticket</button>
+</div>
+
+<br><br><br><br><br><br><br><br>
+</div>
+
+</div>
+
+
+
+
+

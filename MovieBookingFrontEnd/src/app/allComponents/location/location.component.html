@@ -1,0 +1,44 @@
+
+
+<div class="container">
+  <div class="row justify-content-center my-5">
+    <div class="col-md-6 text-center text-primary bg-white rounded shadow py-3">
+
+<h3> <label for="exampleInputEmail1">Choose Your Location</label></h3>
+<!-- <form class="d-flex">
+  <input class="form-control me-2" type="search" placeholder="Search City" aria-label="Search">
+  <button class="btn btn-outline-success" type="submit" >Search</button>
+</form> -->
+
+<hr>
+
+  <a *ngIf="!isShowCity" (click)="showCities()">View All Cities </a>
+
+
+  <div *ngIf="isShowCity">
+    <label >Please Select Your City : </label>
+    <table class="table table-striped">
+
+        <thead>
+          <tr>
+            <th>Zipcode</th>
+            <th>City</th>
+            <th>State</th>
+          </tr>
+       </thead>
+
+      <tbody>
+          <tr *ngFor="let city of cities , index as i"  (click)="setCityName(city)" >
+            <td>{{city.zipcode}}</td>
+            <td>{{city.cityname}}</td>
+            <td>{{city.state}}</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row justify-content-center my-5">
+    <div class="col-md-6 text-center text-primary bg-white rounded shadow py-3">
+
+
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()" >
+
+  <p class="h4 mb-4">User Registration</p>
+
+  <div class=" mb-4">
+
+      <label for="userName">Username</label>
+      <div class="col">
+          <input type="text" formControlName="userName"  class="form-control" placeholder="Enter Username">
+      </div>
+      <br>
+
+      <label for="userPassword">Password</label>
+      <div class="col">
+          <input type="text" formControlName="userPassword"  class="form-control" placeholder="Enter Password">
+      </div>
+      <br>
+
+      <label for="email">Email</label>
+      <div class="col">
+        <input type="text" formControlName="email"  class="form-control" placeholder="Enter Email">
+    </div>
+    <br>
+
+    <label for="phone">Contact Number</label>
+    <div class="col">
+      <input type="text" formControlName="phone"  class="form-control" placeholder="Enter Contact Number">
+  </div>
+  <br>
+
+  </div>
+
+  <small>Are you already registered? <a routerLink="../signin" class="text-success">sign-in</a></small>
+  <button class="btn btn-info my-4 btn-block" type="submit">Submit</button>
+
+  <hr>
+
+</form>
+
+</div>
+</div>
+</div>

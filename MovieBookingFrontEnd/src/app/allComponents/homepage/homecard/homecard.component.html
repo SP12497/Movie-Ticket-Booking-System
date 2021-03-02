@@ -1,0 +1,49 @@
+<ng-container *ngFor="let movie of movies" >
+  <!-- Movie Card Start -->
+      <div class="card-view" (click)="selectedMovie(movie)">
+        <div class="card-header avengerEndgame ">
+            <div class="card-header-icon">
+
+              <!-- <img src="https://i.pinimg.com/originals/2e/5f/2f/2e5f2f251aba1de3361aaf740441c416.jpg" class="header-icon "> -->
+              <img src="{{movie.image}}" class="header-icon ">
+                <!-- <a href="#">
+                    <i class="material-icons header-icon">play_arrow</i>
+                </a> -->
+            </div>
+        </div>
+
+        <div class="card-movie-content">
+            <div class="card-movie-content-head">
+                <a href="#">
+                    <h3 class="card-movie-title">{{movie.title}}</h3>
+                </a>
+                <div class="ratings"><span>{{movie.rating}}</span>/10</div>
+            </div>
+            <div class="card-movie-info">
+                <div class="movie-running-time">
+                    <label>Language</label>
+                    <span>{{movie.language}}</span>
+                </div>
+
+                <div class="movie-running-time">
+                  <label>Genre</label>
+                  <span>{{movie.type}}</span>
+              </div>
+
+                <div class="movie-running-time">
+                    <label>Running time</label>
+                    <span>{{movie.duration}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie Card End -->
+</ng-container>
+
+
+
+
+
+
+
+
