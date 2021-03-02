@@ -1,0 +1,252 @@
+POST
+http://localhost:8082/addmovie
+=================================
+
+
+[
+	{
+		"title" : "The Conjuring: The Devil Made Me Do It",
+		"description" : "The Devil Made Me Do It reveals a chilling story of terror, murder and unknown evil that shocked even experienced real-life paranormal investigators Ed and Lorraine Warren." ,
+		"duration" : "2021-02-01T01:46:56.123+05:30" ,
+		"language" : "English" ,
+		"type" : "Horror",
+		"image" : "https://i2.wp.com/moviesandmania.com/wp-content/uploads/2020/08/Conjuring-the-Devil-movie-film-horror-demon-nun-2020.jpg?resize=370%2C527&ssl=1",
+		"rating" : 8.8,
+		"trailer" : "https://youtu.be/k10ETZ41q5o" 
+			
+	}
+
+,
+
+{
+    "title" : "Wonder Woman 1984",
+    "description" : "Set in 1984 during the Cold War, the film follows Diana and her past love Steve Trevor as they face off against Max Lord and Cheetah. Discussion of a sequel began shortly after the release of the first film in June 2017 and the decision to proceed was confirmed the following month." ,
+    "duration" : "2021-02-01T01:46:56.123+05:30" ,
+	"language" : "Hindi" ,
+	"type" : "Action",
+	"image" : "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/12/Gal-Gadot-in-Wonder-Woman-1984-Poster.jpg",
+    "rating" : 9.3,
+	"trailer" :"https://www.youtube.com/watch?v=1Q8fG0TtVAY"
+}
+
+
+
+
+,
+
+
+{
+    "title" : "KGF",
+    "description" : "This is based on a Gangster" ,
+    "duration" : "2021-02-01T02:18:56.123+05:30" ,
+	"language" : "Hindi" ,
+	"type" : "Action",
+	"image" : "https://wallpapercave.com/wp/wp4019377.jpg",
+    "rating" : 9.3 ,
+	"trailer" :"https://www.youtube.com/watch?v=-KfsY-qwBS0"
+    
+}
+
+
+
+,
+
+{
+    "title" : "Harry Potter",
+    "description" : "This is based on Magical School" ,
+    "duration" : "2021-02-01T03:34:56.123+05:55" ,
+	"language" : "English",
+	"type" : "Fiction , Magic",
+	"image" : "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/original/products/84605/93507/Harry-Potter-and-the-philosophers-stone-original-movie-poster-buy-now-at-starstills__45891.1577476239.jpg?c=2",
+    "rating" : 9.2,
+	"trailer" :"https://www.youtube.com/watch?v=VyHV0BRtdxo"
+    
+}
+
+,
+
+{
+    "title" : "Batman",
+    "description" : "This is Super hero Movie" ,
+    "duration" : "2021-02-01T02:11:56.123+06:30" ,
+	"language" : "English" ,
+	"type" : "Action",
+	"image" : "https://i.redd.it/vzvgy11qyhy31.png",
+     "rating" : 8.9,
+	 "trailer" :"https://www.youtube.com/watch?v=-FZ-pPFAjYY"
+	 
+    
+}
+
+
+,
+{
+ "title" : "Host",
+    "description" : "This is Super thriller Movie" ,
+    "duration" : "2021-02-01T02:12:16.123+05:30" ,
+	"language" : "English" ,
+	"type" : "Action",
+	"image" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Host_%28film%29.jpg/220px-Host_%28film%29.jpg",
+     "rating" : 8.6,
+	 "trailer" :"https://www.youtube.com/watch?v=SNlKbqHqGcY"
+	 
+}
+
+,
+{
+ "title" : "Saw",
+    "description" : "This is action Movie" ,
+    "duration" : "2021-02-01T03:11:45.123+03:30" ,
+	"language" : "English" ,
+	"type" : "Action",
+	"image" : "https://cdn.mos.cms.futurecdn.net/xufv93qetumoxntFDGe7kM-970-80.jpg.webp",
+     "rating" : 8.5,
+	 "trailer" :"https://www.youtube.com/watch?v=S-1QgOMQ-ls"
+	 
+}
+,
+
+{
+ "title" : "The Birds",
+    "description" : "This is suspensive movie Movie" ,
+    "duration" : "2021-02-01T02:38:56.123+05:30" ,
+	"language" : "English" ,
+	"type" : "Sci-Fi",
+	"image" : "https://cdn.mos.cms.futurecdn.net/5FTAczpsSySLn3RtY5s2r9-970-80.jpg.webp",
+     "rating" : 8.3,
+	 "trailer" :"https://www.youtube.com/watch?v=0fJh2gIBOto"
+	 
+}
+,
+{
+ "title" : "Dawn of the Dead",
+    "description" : "This is Horror Movie" ,
+    "duration" : "2021-02-01T01:34:56.123+04:30" ,
+	"language" : "English" ,
+	"type" : "Horror",
+	"image" : "https://cdn.mos.cms.futurecdn.net/hMssoVyMMi6udrWShKarFQ-970-80.jpg.webp",
+     "rating" : 9.0,
+	 "trailer" :"https://www.youtube.com/watch?v=j69OPw9nFHw"
+	 
+}
+,
+{
+ "title" : "Shaun of the Dead",
+    "description" : "This is Horror Movie" ,
+    "duration" : "2021-02-01T02:14:56.123+05:50" ,
+	"language" : "English" ,
+	"type" : "Horror",
+	"image" : "https://cdn.mos.cms.futurecdn.net/ErawYc7jFwRDX7CGimmCWa-970-80.jpg.webp",
+     "rating" : 8.9,
+	 "trailer" :"https://www.youtube.com/watch?v=0_4vs0nCCU"
+	 
+}
+,
+{
+ "title" : "A Nightmare on Elm Street",
+    "description" : "This Movie is based on mysterious story" ,
+    "duration" : "2021-02-01T02:44:56.123+04:10" ,
+	"language" : "English" ,
+	"type" : "Documentry",
+	"image" : "https://www.vintagemovieposters.co.uk/wp-content/uploads/2017/11/IMG_9444.jpg",
+     "rating" : 6.5,
+	 "trailer" :"https://www.youtube.com/watch?v=dCVh4lBfW-c"
+	 
+}
+,
+{
+ "title" : "Evil Dead",
+    "description" : "this Movie is based on biological defect" ,
+    "duration" : "2021-02-01T02:55:56.123+05:35" ,
+	"language" : "English" ,
+	"type" : "Horror",
+	"image" : "https://posteritati.com/posters/000/000/054/274/the-evil-dead-md-web.jpg",
+     "rating" : 4.9,
+	 "trailer" :"https://www.youtube.com/watch?v=NL6mioAlpJk"
+	 
+}
+,
+{
+ "title" : "The Babadook",
+    "description" : "This is mysterious Movie" ,
+    "duration" : "2021-02-01T03:38:56.123+04:40" ,
+	"language" : "English" ,
+	"type" : "Documentry",
+	"image" : "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/babadook-UK-quad-550x412.jpg",
+     "rating" : 3.9,
+	 "trailer" :"https://www.youtube.com/watch?v=k5WQZzDRVtw"
+	 
+}
+,
+{
+ "title" : " The Cabin in the Woods",
+    "description" : "This is Mysterious Movie" ,
+    "duration" : "2021-02-01T02:40:56.123+04:33" ,
+	"language" : "English" ,
+	"type" : "Documentry",
+	"image" : "http://3.bp.blogspot.com/-afQZREhRuGo/UGOyWtRcfnI/AAAAAAAABpc/1mLJkN7jAmU/s1600/The+Cabin+In+The+Woods+poster.jpg",
+     "rating" : 8.3,
+	 "trailer" :"https://www.youtube.com/watch?v=NsIilFNNmkY"
+	 
+}
+,
+{
+ "title" : "A Quiet Place",
+    "description" : "This is horror Movie" ,
+    "duration" : "2021-02-01T02:17:33.123+05:30" ,
+	"language" : "English" ,
+	"type" : "Horror",
+	"image" : "https://i.pinimg.com/564x/74/80/ab/7480ab6031438a672d8cd640f13679e6.jpg",
+     "rating" : 5.9,
+	 "trailer" :"https://www.youtube.com/watch?v=WR7cc5t7tv8"
+	 
+}
+,
+{
+ "title" : "Paranormal Activity",
+    "description" : "This Movie is based on biological defect" ,
+    "duration" : "2021-02-01T02:27:18.123+05:10" ,
+	"language" : "English" ,
+	"type" : "Horror",
+	"image" : "https://i.redd.it/pu449xpx1eg21.png",
+     "rating" : 8.9,
+	 "trailer" :"https://www.youtube.com/watch?v=g7Xn2JqH5ng"
+	 
+}
+,
+{
+ "title" : "Thappad",
+    "description" : "this movie is based on social drama " ,
+    "duration" : "2021-02-01T02:34:56.123+04:30" ,
+	"language" : "Hindi" ,
+	"type" : "Documentry",
+	"image" : "https://superstarsbio.com/wp-content/uploads/2020/02/Thappad-poster.jpg",
+     "rating" : 8.9,
+	 "trailer" :"https://www.youtube.com/watch?v=jBw_Eta0HDM"
+	 
+}
+,
+{
+ "title" : "Dangal ",
+    "description" : "this is  drama movie" ,
+    "duration" : "2021-02-01T02:45:12.123+06:30" ,
+	"language" : "Hindi" ,
+	"type" : "Drama",
+	"image" : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2016/12/13/528438-1549218318553374013670725092079776923524291n-1.jpg",
+     "rating" : 8.9,
+	 "trailer" :"https://www.youtube.com/watch?v=x_7YlGv9u1g"
+	 
+}
+,
+{
+ "title" : "Pink ",
+    "description" : "This Movie is based on social drama" ,
+    "duration" : "2021-02-01T02:22:16.123+05:30" ,
+	"language" : "Hindi" ,
+	"type" : "Drama",
+	"image" : "https://parthasadhukhan.files.wordpress.com/2016/09/pink-the-movie.png",
+     "rating" : 8.4,
+	 "trailer" :"https://www.youtube.com/watch?v=-FZ-pPFAjYY"
+	 
+}
+]

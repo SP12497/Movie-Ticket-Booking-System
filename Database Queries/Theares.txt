@@ -1,0 +1,134 @@
+POST
+=================================
+http://localhost:8082/addTheatre
+=================================
+
+//20
+
+total screen >5
+
+String theatrename = "CineMax";
+		Integer zipcode = 425412;		//check that its available in city table;
+		Integer totalscreens = 3;
+		int[] totalSeatsArray = new int[]{ 50 , 80, 70 }; 
+		
+-------------------------------------
+
+
+String theatrename = "Inox";
+		Integer zipcode = 422003;		//check that its available in city table;
+		Integer totalscreens = 4;
+		int[] totalSeatsArray = new int[]{ 30 , 50 , 70,80 }; 
+		
+--------------------------------------
+
+String theatrename = "CinePlex";
+		Integer zipcode = 556644;		//check that its available in city table;
+		Integer totalscreens = 8;
+		int[] totalSeatsArray = new int[]{ 50 , 50 , 70  , 60 , 50 ,80 , 50 , 80}; 
+		
+--------------------------------------
+
+String theatrename = "JotiPalace";
+		Integer zipcode = 136118;		//check that its available in city table;
+		Integer totalscreens = 7;
+		int[] totalSeatsArray = new int[]{20,37,54,84, 50 , 80, 70 }; 
+		
+-------------------------------------
+
+String theatrename = "Sangam";
+		Integer zipcode = 530068;		//check that its available in city table;
+		Integer totalscreens = 6;
+		int[] totalSeatsArray = new int[]{ 18,46,90, 50 , 80, 70 }; 
+		
+-------------------------------------
+String theatrename = "Elita";
+		Integer zipcode = 11096;		//check that its available in city table;
+		Integer totalscreens = 9;
+		int[] totalSeatsArray = new int[]{ 75,63,95,20,55,35,50 , 80, 70 }; 
+		
+-------------------------------------
+String theatrename = "ShavPalace";
+		Integer zipcode = 403001;		//check that its available in city table;
+		Integer totalscreens = 6;
+		int[] totalSeatsArray = new int[]{ 55,25,50 , 80, 70 ,40 }; 
+		
+-------------------------------------
+
+String theatrename = "Lalkamal";
+		Integer zipcode = 222001;		//check that its available in city table;
+		Integer totalscreens = 8;
+		int[] totalSeatsArray = new int[]{29,45,62,95,55,80,  50 , 70 }; 
+		
+-------------------------------------
+String theatrename = "Ojio";
+		Integer zipcode = 447236;		//check that its available in city table;
+		Integer totalscreens = 9;
+		int[] totalSeatsArray = new int[]{ 50 , 80, 33,88,32,36,70 ,47,}; 
+		
+-------------------------------------
+
+
+String theatrename = "SinghaCinema";
+		Integer zipcode = 425412;		//check that its available in city table;
+		Integer totalscreens = 4;
+		int[] totalSeatsArray = new int[]{ 33,88,32,36}; 
+		
+		-------------------------------------
+
+
+String theatrename = "Tiger";
+		Integer zipcode = 332576;		//check that its available in city table;
+		Integer totalscreens = 8;
+		int[] totalSeatsArray = new int[]{ 50,44,25,55,33,88,32,36}; 
+		
+		-------------------------------------
+
+
+String theatrename = "Surya";
+		Integer zipcode = 234514;		//check that its available in city table;
+		Integer totalscreens = 5;
+		int[] totalSeatsArray = new int[]{ 44,90,55,45,65}; 
+		
+
+		-------------------------------------
+
+
+String theatrename = "PriyaTheater";
+		Integer zipcode = 425412;		//check that its available in city table;
+		Integer totalscreens = 8;
+		int[] totalSeatsArray = new int[]{ 53,87,90,35,33,48,42,40}; 
+		
+		
+-------------------------------------
+
+
+String theatrename = "PayalCinema";
+		Integer zipcode = 234514;		//check that its available in city table;
+		Integer totalscreens = 5;
+		int[] totalSeatsArray = new int[]{ 25,55,33,55,36}; 
+		
+		-------------------------------------
+
+
+String theatrename = "Omax";
+		Integer zipcode = 425412;		//check that its available in city table;
+		Integer totalscreens = 4;
+		int[] totalSeatsArray = new int[]{ 50,88,32,36}; 
+		
+-------------------------------------
+
+
+String theatrename = "PVR";
+		Integer zipcode = 556644;		//check that its available in city table;
+		Integer totalscreens = 6;
+		int[] totalSeatsArray = new int[]{ 44,25,55,33,44,55}; 
+		
+		
+		
+		
+String theatrename = "SagarTheatre";
+		Integer zipcode = 556644;		//check that its available in city table;
+		Integer totalscreens = 6;
+		int[] totalSeatsArray = new int[]{ 44,25,55,33,44,55}; 
+		
